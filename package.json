@@ -6,7 +6,7 @@
     "typescript": "^5.3.3"
   },
   "name": "calime",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Node.js class for stylish console text with colors, gradients, and multiple text styles. Easy chaining for seamless styling.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
