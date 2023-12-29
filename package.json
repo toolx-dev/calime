@@ -1,0 +1,44 @@
+{
+  "devDependencies": {
+    "standard": "^17.1.0",
+    "standard-version": "^9.5.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.3.3"
+  },
+  "name": "calime",
+  "version": "1.0.0",
+  "description": "A Node.js class for stylish console text with colors, gradients, and multiple text styles. Easy chaining for seamless styling.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "watch": "tsc --watch",
+    "build": "tsc -p tsconfig.json",
+    "test": "jest",
+    "lint": "standard",
+    "release": "standard-version",
+    "release:first": "standard-version --skip.bump",
+    "release:soft": "standard-version --skip.bump --skip.commit --skip.tag"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williammanco/calime.git"
+  },
+  "keywords": [
+    "CLI",
+    "color",
+    "style",
+    "console",
+    "chalk"
+  ],
+  "author": "William Manco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/williammanco/calime/issues"
+  },
+  "homepage": "https://github.com/williammanco/calime#readme"
+}
