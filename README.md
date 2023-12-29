@@ -1,7 +1,7 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/calime" target="_blank" rel="noopener noreferrer">
-    <img width="180" src="logo.png" alt="calime logo" />
+    <img width="180" src="https://raw.githubusercontent.com/toolx-dev/calime/main/logo.png" alt="calime logo" />
   </a>
 </p>
 <br/>
@@ -20,7 +20,7 @@
 While `Calime` provides various styling options, it aims to keep a balance between functionality and simplicity. For complex text and background color combinations, consider using libraries like `chalk` for more complete solutions. `Calime` may choose to skip adding such complex features to maintain code simplicity.
 ::::
 
- <img width="683" src="example.png" alt="calime example" />
+ <img width="683" src="https://raw.githubusercontent.com/toolx-dev/calime/main/example.png" alt="calime example" />
 
 ## Features
 - **Multiple Text Styles**: Apply various text styles including bold, underline, italic, and more.
